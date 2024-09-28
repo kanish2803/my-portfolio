@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="menu-toggle" id="menu-toggle">
+            <div class="hamburger"></div>
+        </div>
+        <ul id="nav-list">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About Me</a></li>
+            <li><a href="#certifications" class="nav-link">Certifications</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#internships" class="nav-link">Internships</a></li>
+            <li><a href="#project" class="nav-link">Project</a></li>
+            <li><a href="#project-info" class="nav-link">Project Info</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="image-section fade-in">
+        <img src="images/home.gif" alt="Home" />
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="image-section fade-in">
+        <img src="images/about.gif" alt="About Me" />
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="image-section fade-in">
+        <img src="images/certifications.gif" alt="Certifications" />
+        <a href="pdfs/certifications.pdf" class="btn btn-bottom-right" download>View My Certifications</a>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="image-section fade-in">
+        <img src="images/education.gif" alt="Education" />
+    </section>
+
+    <!-- Internships Section -->
+    <section id="internships" class="image-section fade-in">
+        <img src="images/internships.gif" alt="Internships" />
+    </section>
+
+    <!-- Project Section -->
+    <section id="project" class="image-section fade-in">
+        <img src="images/project.gif" alt="Project" />
+    </section>
+
+    <!-- Project Information Section -->
+    <section id="project-info" class="image-section fade-in">
+        <img src="images/projectinfo.gif" alt="Project Info" />
+        <a href="pdfs/projectinfo.pdf" class="btn btn-bottom-right" download>Project Information</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="image-section fade-in contact-section">
+        <img src="images/contact.gif" alt="Contact" />
+
+        <!-- Overlayed Contact Info -->
+        <div class="contact-overlay">
+            <p>Contact: <a href="mailto:kanishramalingam@gmail.com">kanishramalingam@gmail.com</a></p>
+            <p>Phone: 7200571307</p>
+
+            <!-- Mailer Section -->
+            <form action="mailto:kanishramalingam@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+
+        <!-- 'View My Resume' Button -->
+        <a href="pdfs/resume.pdf" class="btn btn-bottom-center" download>View My Resume</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact: <a href="mailto:kanishramalingam@gmail.com">kanishramalingam@gmail.com</a> | Phone: 7200571307</p>
+        <p>&copy; 2024 Kanish Ramalingam. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
